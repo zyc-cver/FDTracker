@@ -6,16 +6,17 @@
 
 ¹ Beijing University of Posts and Telecommunications (BUPT)
 
-**🏆 Winner of the CVPR 2025 RHOBIN Challenge - Joint tracking of human and object from monocular RGB video**
+**🏆 Winner of the CVPR 2025 RHOBIN Challenge - Tracking human-object interaction**
 
 <a>![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-brightgreen.svg)</a>
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
-[**[Paper]**](link_here) | [**[Project Page]**](link_here)
+[**[Paper (Coming Soon)]**](#) | [**[Project Page]**](https://zyc-cver.github.io/FDTracker/)
 
 </div>
 
 ---
+>The paper is currently under review, and more code will be released after the review is completed.*
 
 **FDTracker** is a fully deep learning framework that outperforms state-of-the-art hybrid methods in 3D human-object interaction tracking, offering significantly higher accuracy and much faster inference speeds through a streamlined, optimization-free pipeline.
 <div align="center">
@@ -35,7 +36,7 @@ pip install -r requirements.txt
 
 # Data Preparation
 
-Please download the required data from [Link to your cloud drive].
+Please download the required data from [Link to your cloud drive].https://drive.google.com/drive/folders/1QvTpTwTpnWialVc2yelnvCWuTyohs-e1?usp=sharing
 
 Organize your data directory as follows:
 
@@ -73,7 +74,7 @@ data/
 To quickly evaluate our model without setting up the full training pipeline, you can use our provided demo data and pretrained weights.
 
 ### 1. Download Demo Data & Weights: 
-Download the demo package and checkpoint from [Link to your cloud drive].
+Download the demo package and checkpoint from [**[Google drive]**](https://drive.google.com/drive/folders/1QvTpTwTpnWialVc2yelnvCWuTyohs-e1?usp=sharing).
 
 ### 2. Run Inference:
 ```
