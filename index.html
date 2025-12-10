@@ -25,9 +25,13 @@
     .author-notes { margin-top: 0.5rem; font-size: 0.95rem; font-style: italic; opacity: 0.8; }
     .publication-links { margin: 1.5rem 0; }
     .link-block { margin: 0 0.3rem 0.5rem; display: inline-block; }
+    .video-container { display: flex; justify-content: center; margin: 2rem 0; }
+    .rounded-corners { border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .fixed-size-video { width: 100%; max-width: 940px; height: auto; }
     @media screen and (max-width: 768px) {
       .publication-title { font-size: 2rem; }
       .publication-authors { font-size: 1rem; }
+      .fixed-size-video { width: 100%; }
     }
   </style>
 </head>
@@ -70,6 +74,35 @@
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container">
+    <div class="text-container">
+      <h2 class="title is-3 has-text-centered">Abstract</h2>
+      <p class="content">
+        <!-- TODO: Add your abstract content here -->
+        Capturing the dynamic interactions between humans and objects from a single RGB camera is both user-friendly and cost-effective, serving as a fundamental basis for numerous applications, such as human behavior analysis and human–robot collaboration. The prevailing baseline approach employs a hybrid framework that integrates independent learning-based and optimization-based components, resulting in high computational costs and limited robustness; additionally, for heavily occluded objects (with a visible area less than 50%), the rigid removal strategy employed is prone to errors.
+To address the aforementioned issues, we propose a Fully Deep learning framework (FDTracker) that i) enhances computational efficiency by establishing a learning-driven inference pipeline instead of multi-stage iterative optimization, ii) improves robustness by learning temporal interaction at the feature level instead of  relying solely on explicit guidance, iii) reduces estimation errors for heavily occluded objects by modeling 2D-3D correspondences in occluded areas and extracting potentially useful information. Our method outperforms existing state-of-the-art approaches on both the BEHAVE (human: +47.6%, object: +4.1%) and InterCap datasets (human: +39.3%, object: +14.5%), achieving an approximately 500-fold speedup while winning the CVPR 2025 RHOBIN challenge.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="text-container has-text-centered">
+      <h2 class="title is-3">Video</h2>
+    </div>
+    
+    <div class="video-container">
+      <video class="fixed-size-video rounded-corners" id="demo-video" loop muted playsinline controls>
+        <source src="./files/demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container">
     <div class="text-container has-text-centered">
