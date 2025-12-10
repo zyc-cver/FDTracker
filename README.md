@@ -16,7 +16,7 @@
 </div>
 
 ---
->The paper is currently under review, and more code will be released after the review is completed.*
+>The paper is currently under review, and more code will be released after the review is completed.
 
 **FDTracker** is a fully deep learning framework that outperforms state-of-the-art hybrid methods in 3D human-object interaction tracking, offering significantly higher accuracy and much faster inference speeds through a streamlined, optimization-free pipeline.
 <div align="center">
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 # Data Preparation
 
-Please download the required data from [Link to your cloud drive](https://drive.google.com/drive/folders/1QvTpTwTpnWialVc2yelnvCWuTyohs-e1?usp=sharing).
+Please download the required data from [**[Google Drive]**](https://drive.google.com/drive/folders/1QvTpTwTpnWialVc2yelnvCWuTyohs-e1?usp=sharing).
 
 Organize your data directory as follows:
 
